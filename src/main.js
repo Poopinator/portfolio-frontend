@@ -6,14 +6,15 @@ import { createI18n } from "vue-i18n";
 import en from "@/locales/en.json";
 import zh from "@/locales/zh.json";
 
+const savedLang = localStorage.getItem('lang') || 'en';
+
 const i18n = createI18n({
   legacy: false,
-  locale: "en",
-  fallbackLocale: "en",
-  messages: { en, zh },
+  locale: savedLang, // ✅ loads saved preference
+  fallbackLocale: 'en',
+  messages: { en, zh }
 });
 
-i18n.global.locale = "en"; // ✅ ensure default language is set before mount
 
 const app = createApp(App);
 app.use(router);

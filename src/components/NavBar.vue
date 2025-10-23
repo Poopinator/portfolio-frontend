@@ -22,13 +22,16 @@
   </transition>
 
 </template>
+
 <script setup>
-import { useI18n } from 'vue-i18n';
-const { locale } = useI18n();
+import { useI18n } from 'vue-i18n'
+import { useRoute, RouterLink } from 'vue-router'
+
+const { locale } = useI18n()  // reactive locale reference
 
 function switchLang(lang) {
-  locale.value = lang;
-  localStorage.setItem('lang', lang);
+  locale.value = lang                // ✅ update i18n locale
+  localStorage.setItem('lang', lang) // ✅ remember user preference
 }
 </script>
 
