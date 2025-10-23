@@ -76,9 +76,10 @@ async function submitForm() {
   success.value = false;
   errorMsg.value = "";
   isSending.value = true;
+  const API_BASE = "https://your-backend.onrender.com";
 
   try {
-    const res = await fetch("http://127.0.0.1:5000/api/contact", {
+    const res = await fetch(`${API_BASE}/api/contact`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form.value),
