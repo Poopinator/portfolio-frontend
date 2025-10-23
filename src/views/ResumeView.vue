@@ -29,7 +29,7 @@
         <p><strong>Wu Zheming</strong><br />{{ $t('resume.profile_desc') }}</p>
       </div>
       <div class="image-side">
-        <img src="@/assets/resume/profile1.png" alt="Profile photo" class="resume-img" />
+        <img src="@/assets/resume/Profile1.png" alt="Profile photo" class="resume-img" />
       </div>
     </div>
   </section>
