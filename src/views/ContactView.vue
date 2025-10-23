@@ -71,12 +71,12 @@ const form = ref({ name: "", email: "", message: "" });
 const success = ref(false);
 const isSending = ref(false);
 const errorMsg = ref("");
+const API_BASE = "https://your-backend.onrender.com";
 
 async function submitForm() {
   success.value = false;
   errorMsg.value = "";
   isSending.value = true;
-  const API_BASE = "https://your-backend.onrender.com";
 
   try {
     const res = await fetch(`${API_BASE}/api/contact`, {

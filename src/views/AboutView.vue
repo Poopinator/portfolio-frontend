@@ -223,37 +223,37 @@ import { onMounted, ref, computed } from "vue";
 
 const techs = [
   // Programming & Web
-  { name: "Python", logo: "@/assets/python.svg", level: 90 },
-  { name: "Vue 3", logo: "../src/assets/vue.svg", level: 90 },
-  { name: "HTML5", logo: "../src/assets/html5.svg", level: 95 },
-  { name: "CSS3", logo: "../src/assets/css3.svg", level: 90 },
-  { name: "JavaScript", logo: "../src/assets/javascript.svg", level: 88 },
-  { name: "Flask", logo: "../src/assets/flask.svg", level: 85 },
-  { name: "C#", logo: "../src/assets/csharp.svg", level: 75 },
+  { name: "Python", logo: "@/assets/tech/python.svg", level: 90 },
+  { name: "Vue 3", logo: "@/assets/tech/vue.svg", level: 90 },
+  { name: "HTML5", logo: "@/assets/tech/html5.svg", level: 95 },
+  { name: "CSS3", logo: "@/assets/tech/css3.svg", level: 90 },
+  { name: "JavaScript", logo: "@/assets/tech/javascript.svg", level: 88 },
+  { name: "Flask", logo: "@/assets/tech/flask.svg", level: 85 },
+  { name: "C#", logo: "@/assets/tech/csharp.svg", level: 75 },
 
   // Core Cybersecurity & OS
-  { name: "Kali Linux", logo: "../src/assets/kalilinux.svg", level: 85 },
-  { name: "Git", logo: "../src/assets/git.svg", level: 85 },
-  { name: "Wireshark", logo: "../src/assets/wireshark.svg", level: 80 },
-  { name: "PowerShell", logo: "../src/assets/powershell.svg", level: 70 },
+  { name: "Kali Linux", logo: "@/assets/tech/kalilinux.svg", level: 85 },
+  { name: "Git", logo: "@/assets/tech/git.svg", level: 85 },
+  { name: "Wireshark", logo: "@/assets/tech/wireshark.svg", level: 80 },
+  { name: "PowerShell", logo: "@/assets/tech/Powershell.svg", level: 70 },
   
   // Offensive Security
-  { name: "Nmap", logo: "../src/assets/nmap.svg", level: 80 },
-  { name: "Metasploit", logo: "../src/assets/metasploit.svg", level: 75 },
-  { name: "Burp Suite", logo: "../src/assets/burpsuite.svg", level: 70 },
+  { name: "Nmap", logo: "@/assets/tech/nmap.svg", level: 80 },
+  { name: "Metasploit", logo: "@/assets/tech/metasploit.svg", level: 75 },
+  { name: "Burp Suite", logo: "@/assets/tech/burpsuite.svg", level: 70 },
 
   // Defensive Security & SIEM
-  { name: "Wazuh", logo: "../src/assets/wazuh.webp", level: 75 },
-  { name: "Splunk", logo: "../src/assets/splunk.svg", level: 70 },
-  { name: "Kibana", logo: "../src/assets/kibana.svg", level: 65 },
-  { name: "PFsense", logo: "../src/assets/pfsense.svg", level: 65 },
+  { name: "Wazuh", logo: "@/assets/tech/Wazuh.webp", level: 75 },
+  { name: "Splunk", logo: "@/assets/tech/Splunk.svg", level: 70 },
+  { name: "Kibana", logo: "@/assets/tech/Kibana.svg", level: 65 },
+  { name: "PFsense", logo: "@/assets/tech/pfsense.svg", level: 65 },
   
   // Databases
-  { name: "MySQL", logo: "../src/assets/mysql.svg", level: 80 },
-  { name: "Oracle", logo: "../src/assets/oracle.svg", level: 70 },
+  { name: "MySQL", logo: "@/assets/tech/mysql.svg", level: 80 },
+  { name: "Oracle", logo: "@/assets/tech/oracle.svg", level: 70 },
 
   // Cloud & Containers
-  { name: "Docker", logo: "../src/assets/docker.svg", level: 60 },
+  { name: "Docker", logo: "@/assets/tech/Docker.svg", level: 60 },
 ];
 
 onMounted(() => {
@@ -286,7 +286,7 @@ const experiences = ref([
     description:
       "Rebuilding the EnverReceiver and EnvertechV2 energy monitoring platform from C#/.NET to Flask + Vue3, integrating Oracle & MySQL databases, and developing dynamic dashboards with real-time energy analytics and role-based access control.",
     skills: ["Flask", "Vue3", "MySQL", "Oracle", "REST APIs", "ECharts", "RBAC"],
-    logo: "/src/assets/BlueSpider.png",
+    logo: "@/assets/company/BlueSpider.png",
   },
 //   {
 //     title: "Engineering Intern",
@@ -304,7 +304,7 @@ const experiences = ref([
     description:
       "Pursuing a Diploma in Cybersecurity & Digital Forensics, mastering network security, digital investigations, and secure application development while contributing to community tech events and open-source projects.",
     skills: ["Cybersecurity", "Digital Forensics", "Python", "C#", "Networking"],
-    logo: "/src/assets/NYP.webp",
+    logo: "@/assets/NYP.webp",
   },
 ]);
 
@@ -338,19 +338,19 @@ const certs = [
   {
     name: "Offensive Security Certified Professional (OSCP+)",
     issuer: "Offensive Security",
-    logo: "../src/assets/cert/oscp+.webp",
+    logo: "@/assets/cert/OSCP+.webp",
     link: "#",
   },
   {
     name: "Cisco Certified Network Associate (CCNA+)",
     issuer: "Cisco",
-    logo: "../src/assets/cert/ccna.webp",
+    logo: "@/assets/cert/ccna.webp",
     link: "#",
   },
   {
     name: "Foundational C# Certification",
     issuer: "Microsoft x freeCodeCamp",
-    logo: "../src/assets/csharp.svg",
+    logo: "@/assets/tech/csharp.svg",
     link: "#",
   },
 ];
