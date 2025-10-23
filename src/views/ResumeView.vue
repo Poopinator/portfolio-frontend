@@ -50,7 +50,7 @@
       </div>
       <div class="image-side">
         <img src="@/assets/resume/challenger.webp" alt="Working at Challenger" class="resume-img" />
-        <img src="@/assets/resume/gyg.webp" alt="Guzman work photo" class="resume-img" />
+        <img src="@/assets/resume/GYG.webp" alt="Guzman work photo" class="resume-img" />
       </div>
     </div>
   </section>
