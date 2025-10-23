@@ -223,7 +223,7 @@ import { onMounted, ref, computed } from "vue";
 
 const techs = [
   // Programming & Web
-  { name: "Python", logo: "../src/assets/python.svg", level: 90 },
+  { name: "Python", logo: "@/assets/python.svg", level: 90 },
   { name: "Vue 3", logo: "../src/assets/vue.svg", level: 90 },
   { name: "HTML5", logo: "../src/assets/html5.svg", level: 95 },
   { name: "CSS3", logo: "../src/assets/css3.svg", level: 90 },
