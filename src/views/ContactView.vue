@@ -32,9 +32,9 @@
         <div class="social-section">
           <h2>{{ $t('contact.social_title') }}</h2>
           <div class="social-links">
-            <a href="https://linkedin.com/in/wuzheming" target="_blank" class="social-btn">{{ $t('contact.linkedin') }}</a>
-            <a href="https://github.com/yourusername" target="_blank" class="social-btn">{{ $t('contact.github') }}</a>
-            <a href="mailto:wuzheming1@gmail.com" class="social-btn">{{ $t('contact.email') }}</a>
+            <a href="https://linkedin.com/in/wuzheming" target="_blank" class="social-btn">LinkedIn</a>
+            <a href="https://github.com/yourusername" target="_blank" class="social-btn">GitHub</a>
+            <a href="mailto:wuzheming1@gmail.com" class="social-btn">Email</a>
           </div>
         </div>
       </div>
@@ -43,12 +43,29 @@
       <div class="contact-right">
         <div class="form-card">
           <h2>{{ $t('contact.form_title') }}</h2>
+
           <form @submit.prevent="submitForm">
             <div class="input-row">
-              <input type="text" :placeholder="$t('contact.placeholder_name')" v-model="form.name" required />
-              <input type="email" :placeholder="$t('contact.placeholder_email')" v-model="form.email" required />
+              <input
+                type="text"
+                :placeholder="$t('contact.placeholder_name')"
+                v-model="form.name"
+                required
+              />
+              <input
+                type="email"
+                :placeholder="$t('contact.placeholder_email')"
+                v-model="form.email"
+                required
+              />
             </div>
-            <textarea :placeholder="$t('contact.placeholder_message')" v-model="form.message" rows="6" required></textarea>
+
+            <textarea
+              :placeholder="$t('contact.placeholder_message')"
+              v-model="form.message"
+              rows="6"
+              required
+            ></textarea>
 
             <button type="submit" class="submit-btn" :disabled="isSending">
               {{ isSending ? $t('contact.btn_sending') : $t('contact.btn_send') }}
@@ -63,7 +80,6 @@
   </section>
 </template>
 
-
 <script setup>
 import { ref } from "vue";
 
@@ -71,7 +87,9 @@ const form = ref({ name: "", email: "", message: "" });
 const success = ref(false);
 const isSending = ref(false);
 const errorMsg = ref("");
-const API_BASE = "https://your-backend.onrender.com";
+
+// 🟢 Replace this with your real Render backend URL after deployment
+const API_BASE = "https://portfolio-backend-k1rt.onrender.com"; 
 
 async function submitForm() {
   success.value = false;
@@ -94,7 +112,7 @@ async function submitForm() {
       errorMsg.value = data.message || "Something went wrong.";
     }
   } catch (err) {
-    console.error(err);
+    console.error("❌ Frontend error:", err);
     errorMsg.value = "Server connection failed.";
   } finally {
     isSending.value = false;
