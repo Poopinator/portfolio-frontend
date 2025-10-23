@@ -1,0 +1,132 @@
+{
+  "about": {
+    "title": "关于",
+    "me": "我",
+    "hello": "你好，我是",
+    "name": "吴哲明",
+    "role": "网络安全爱好者 · 全栈开发者",
+    "bio": "我专注于打造安全、高效且视觉美观的系统。目前正在实习，担任全栈开发人员，主要使用 Vue3、Flask、MySQL 和 C#，将网络安全意识融入现代网站开发实践中。",
+    "cv": "下载简历",
+    "projects": "查看项目",
+
+    "stats": {
+      "projects": "项目总数",
+      "projects_desc": "创新性的网站解决方案",
+      "certificates": "证书",
+      "certificates_desc": "专业技能认证",
+      "experience": "工作经验年限",
+      "experience_desc": "持续学习与成长"
+    },
+
+    "tech_title": "我的技术栈",
+    "tech_desc": "我使用这些技术打造高效、安全、视觉出众的系统。",
+
+    "exp_title": "专业经历",
+    "exp_sub": "展示我在系统构建与安全防护方面的实践经验。",
+
+    "extra_title": "课外活动",
+    "extra_sub": "领导力、团队合作与社会影响力。",
+
+    "extra1": {
+      "title": "南洋理工学院社区服务理事会（理事长）",
+      "duration": "2023 – 2024 · 新加坡",
+      "desc": "领导社区服务理事会，负责多个社区项目与学生倡议。统筹活动策划、人员分工与外部组织合作。",
+      "tags": ["领导力", "项目管理", "社区服务"]
+    },
+
+    "extra2": {
+      "title": "国家青年成就奖学生会（执行委员）",
+      "duration": "2023 – 2024 · 新加坡",
+      "desc": "负责青年领导与服务学习项目，协调志愿活动，促进青年公民责任与参与。",
+      "tags": ["活动策划", "服务学习", "青年领导力"]
+    },
+
+    "extra3": {
+      "title": "后港中学交响乐团（器材管理员）",
+      "duration": "2017 – 2021 · 新加坡",
+      "desc": "管理乐器与音乐后勤，确保演出顺利进行。在多次演出中培养了纪律性与团队协作能力。",
+      "tags": ["团队合作", "纪律", "后勤管理"]
+    },
+
+    "cert_title": "专业证书",
+    "cert_sub": "展示我在网络安全与信息技术领域持续学习与实践的成果。",
+    "cert_issuer": "颁发机构",
+    "cert_view": "查看证书"
+  },
+
+  "projects": {
+    "title": "我的项目",
+    "subtitle": "我所完成的项目合集 —— 结合全栈开发与网络安全理念。",
+
+    "buttons": {
+      "code": "源码暂不可用",
+      "demo": "无线上演示（本地部署）"
+    },
+
+    "cyber": {
+      "title": "网络安全攻防模拟与防御架构",
+      "desc": "进行了红蓝队企业级攻防演练，分析数据外泄、MFA 失效与网络分段绕过问题。设计并部署了多层防御体系，集成 Splunk SIEM、Wazuh、ModSecurity WAF、YARA、RDPGuard 与 pfSense + OpenVPN，并创建 SOC 式响应测试场景以降低检测与响应时间。",
+      "tags": ["网络安全", "SIEM", "Wazuh", "Splunk", "YARA", "Kali Linux", "ModSecurity", "pfSense"]
+    },
+
+    "infosec": {
+      "title": "信息安全项目",
+      "desc": "开发并部署了一套安全文件共享与管理系统，专为医疗行业设计，以满足严格的合规性要求。系统旨在防止敏感数据被未授权访问或泄露，并确保符合 PDPA 与 ISO 27001 等安全标准。",
+      "tags": ["Flask", "React.js", "MySQL", "AWS S3", "TensorFlow", "信息安全"]
+    },
+
+    "appsec": {
+      "title": "应用安全项目",
+      "desc": "从零开始开发一款安全的网络应用，重点防范并缓解 OWASP Top 10 漏洞。以“安全设计”为核心理念，从架构规划到身份验证与日志监控，全面嵌入安全防护机制。",
+      "tags": ["Python", "Flask", "SQLAlchemy", "OWASP", "Elastic Cloud", "Kibana"]
+    }
+  },
+  "resume": {
+  "title": "我的简历",
+  "subtitle": "展现我在网络安全与技术领域成长与热情的时间轴",
+  "download": "⬇️ 下载我的简历",
+  
+  "profile_title": "👨‍💻 个人简介",
+  "profile_desc": "新加坡南洋理工学院网络安全与数字取证专业学生。热衷于安全系统设计、全栈开发和网络防御。熟悉 Python、Flask、Vue3 及多种现代安全工具。",
+
+  "experience_title": "💼 工作经验",
+  "exp1_role": "销售助理兼技术支持（2023–至今）",
+  "exp1_desc": "为客户提供产品咨询与技术支持。",
+  "exp2_role": "餐饮服务员兼收银员（2024）",
+  "exp2_desc": "负责POS系统操作、食物准备及日常运作。",
+
+  "education_title": "🎓 教育经历",
+  "edu1": "新加坡南洋理工学院 — 网络安全与数字取证文凭（2022–至今）",
+  "edu2": "后港中学 — GCE ‘N’ 水准（2017–2021）"
+},
+"contact": {
+  "title": "保持联系",
+  "subtitle": "无论是合作、实习，还是想聊聊科技话题——我都很期待与你交流。",
+
+  "location_label": "📍 所在地：",
+  "location_value": "新加坡",
+
+  "email_label": "📧 邮箱：",
+  "email_value": "wuzheming1@gmail.com",
+
+  "phone_label": "📱 电话：",
+  "phone_value": "(+65) 8260 4928",
+
+  "social_title": "社交链接",
+  "linkedin": "领英",
+  "github": "GitHub",
+  "email": "电子邮件",
+
+  "form_title": "给我留言",
+  "placeholder_name": "你的姓名",
+  "placeholder_email": "你的邮箱",
+  "placeholder_message": "你的留言",
+  "btn_sending": "发送中...",
+  "btn_send": "发送信息",
+
+  "success": "✅ 信息已成功发送！我会尽快回复你。",
+  "error": "❌ 发送失败，请稍后再试。"
+}
+
+
+}

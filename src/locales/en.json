@@ -1,0 +1,132 @@
+{
+  "about": {
+    "title": "About",
+    "me": "Me",
+    "hello": "Hello, I’m",
+    "name": "Wu Zheming",
+    "role": "Cybersecurity Enthusiast · Full-Stack Developer",
+    "bio": "I specialize in crafting secure, efficient, and visually aesthetic systems. Currently interning as a full-stack developer, gaining hands-on experience with Vue3, Flask, MySQL, and C# — merging cybersecurity awareness with modern web development practices.",
+    "cv": "Download CV",
+    "projects": "View Projects",
+
+    "stats": {
+      "projects": "Total Projects",
+      "projects_desc": "Innovative web solutions crafted",
+      "certificates": "Certificates",
+      "certificates_desc": "Professional skills validated",
+      "experience": "Years of Experience",
+      "experience_desc": "Continuous learning journey"
+    },
+
+    "tech_title": "My Tech Stack",
+    "tech_desc": "Technologies I use to craft efficient, secure, and visually stunning systems.",
+
+    "exp_title": "Professional Experience",
+    "exp_sub": "A glimpse into my hands-on journey building and securing systems.",
+
+    "extra_title": "Extra-Curricular Activities",
+    "extra_sub": "Leadership, teamwork, and community impact beyond academics.",
+
+    "extra1": {
+      "title": "NYP Community Service Council (Council Chief)",
+      "duration": "2023 – 2024 · Singapore",
+      "desc": "Led the NYP Community Service Council overseeing multiple community outreach projects and student initiatives. Directed event planning, delegation, and collaborations with external organizations.",
+      "tags": ["Leadership", "Project Management", "Community Outreach"]
+    },
+
+    "extra2": {
+      "title": "NYAA Students Club (Executive Committee)",
+      "duration": "2023 – 2024 · Singapore",
+      "desc": "Spearheaded leadership and service-learning programs under the National Youth Achievement Award framework. Coordinated volunteer projects promoting civic responsibility and youth engagement.",
+      "tags": ["Event Planning", "Service Learning", "Youth Leadership"]
+    },
+
+    "extra3": {
+      "title": "Hougang Secondary Symphonic Band (Quartermaster)",
+      "duration": "2017 – 2021 · Singapore",
+      "desc": "Managed instruments and music logistics, ensuring performance readiness. Developed discipline, coordination, and collaborative skills through numerous school showcases.",
+      "tags": ["Teamwork", "Discipline", "Logistics Management"]
+    },
+
+    "cert_title": "Professional Certifications",
+    "cert_sub": "Credentials that showcase continuous learning, hands-on expertise, and dedication to the cybersecurity & IT field.",
+    "cert_issuer": "Issued by",
+    "cert_view": "View Certificate"
+  },
+
+  "projects": {
+    "title": "My Projects",
+    "subtitle": "A collection of projects I’ve built — blending full-stack development and cybersecurity.",
+
+    "buttons": {
+      "code": "Code Unavailable",
+      "demo": "No Demo (Local Deployment)"
+    },
+
+    "cyber": {
+      "title": "Cybersecurity Simulation & Defense Architecture",
+      "desc": "Conducted a red-team / blue-team enterprise simulation analyzing data exfiltration vectors, MFA failures, and segmentation bypass. Designed a multi-layer defense integrating Splunk SIEM, Wazuh, ModSecurity WAF, YARA, RDPGuard, and pfSense with OpenVPN. Built SOC-style response test cases to reduce MTTD/MTTR in simulated breach scenarios.",
+      "tags": ["Cybersecurity", "SIEM", "Wazuh", "Splunk", "YARA", "Kali Linux", "ModSecurity", "pfSense"]
+    },
+
+    "infosec": {
+      "title": "Infosecurity Project",
+      "desc": "Developed and deployed a comprehensive Secure File Sharing and Management System specifically engineered to meet the stringent security and compliance requirements of the healthcare sector. The platform was designed to mitigate critical risks, including unauthorized access to sensitive patient data, accidental data leaks, and the complex challenges of adhering to regulatory standards like PDPA and ISO 27001.",
+      "tags": ["Flask", "React.js", "MySQL", "AWS S3", "TensorFlow", "Security"]
+    },
+
+    "appsec": {
+      "title": "Application Security Project",
+      "desc": "Robust and secure web application from the ground up, with a core focus on proactively identifying and mitigating the OWASP Top 10 vulnerabilities. This project was founded on a 'secure by design' philosophy, embedding security principles throughout the entire development lifecycle, from architectural planning and data handling to user authentication and incident response protocols.",
+      "tags": ["Python", "Flask", "SQLAlchemy", "OWASP", "Elastic Cloud", "Kibana"]
+    }
+  },
+  "resume": {
+  "title": "My Resume",
+  "subtitle": "A timeline of my growth, experience, and passion in Cybersecurity and Technology",
+  "download": "⬇️ Download My CV",
+  
+  "profile_title": "👨‍💻 Profile",
+  "profile_desc": "Cybersecurity & Digital Forensics student at Nanyang Polytechnic. Passionate about secure system design, full-stack development, and network defense. Skilled in Python, Flask, Vue3, and modern security tools.",
+
+  "experience_title": "💼 Work Experience",
+  "exp1_role": "Sales Assistant & Tech Support (2023–Present)",
+  "exp1_desc": "Provided customer tech advice and product support.",
+  "exp2_role": "Line Crew & Cashier (2024)",
+  "exp2_desc": "Handled POS, food preparation, and daily operations.",
+
+  "education_title": "🎓 Education",
+  "edu1": "Nanyang Polytechnic — Diploma in Cybersecurity & Digital Forensics (2022–Present)",
+  "edu2": "Hougang Secondary School — GCE ‘N’ Level (2017–2021)"
+},
+"contact": {
+  "title": "Let’s Connect",
+  "subtitle": "Whether it’s about collaboration, internships, or a tech conversation — I’d love to hear from you.",
+
+  "location_label": "📍 Location:",
+  "location_value": "Singapore",
+
+  "email_label": "📧 Email:",
+  "email_value": "wuzheming1@gmail.com",
+
+  "phone_label": "📱 Phone:",
+  "phone_value": "(+65) 8260 4928",
+
+  "social_title": "Social Links",
+  "linkedin": "LinkedIn",
+  "github": "GitHub",
+  "email": "Email",
+
+  "form_title": "Send Me a Message",
+  "placeholder_name": "Your Name",
+  "placeholder_email": "Your Email",
+  "placeholder_message": "Your Message",
+  "btn_sending": "Sending...",
+  "btn_send": "Send Message",
+
+  "success": "✅ Message sent successfully! I’ll get back to you soon.",
+  "error": "❌ Something went wrong. Please try again."
+}
+
+
+}
