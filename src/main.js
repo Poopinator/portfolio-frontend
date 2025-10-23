@@ -13,6 +13,7 @@ const i18n = createI18n({
   messages: { en, zh },
 });
 
+i18n.global.locale = "en"; // ✅ ensure default language is set before mount
 
 const app = createApp(App);
 app.use(router);
