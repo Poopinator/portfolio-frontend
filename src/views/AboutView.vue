@@ -147,7 +147,7 @@
 
     <!-- 🖼 Background collage -->
     <div class="photo-bg">
-      <img src="@/assets/cca/cca1.jpg" class="photo p1" alt="CSC event" />
+      <img src="@/assets/CCA/CCA1.jpg" class="photo p1" alt="CSC event" />
       <img src="@/assets/cca/cca2.jpg" class="photo p2" alt="CSC group" />
       <img src="@/assets/cca/cca3.jpg" class="photo p3" alt="NYAA volunteering" />
       <img src="@/assets/cca/cca4.jpg" class="photo p4" alt="NYAA project" />
