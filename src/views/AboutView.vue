@@ -152,7 +152,7 @@
       <img src="@/assets/CCA/CCA3.jpg" class="photo p3" alt="NYAA volunteering" />
       <img src="@/assets/CCA/CCA4.jpg" class="photo p4" alt="NYAA project" />
       <img src="@/assets/CCA/CCA5.jpg" class="photo p5" alt="Band rehearsal" />
-      <img src="@/assets/CCA/CCA6.jpg" class="photo p6" alt="Band performance" />
+      <img src="@/assets/CCA/cca6.jpg" class="photo p6" alt="Band performance" />
     </div>
 
 <div class="extra-container">
