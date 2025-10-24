@@ -220,41 +220,64 @@
 <script setup>
 import { useI18n } from "vue-i18n";
 import { onMounted, ref, computed } from "vue";
+// Tech logos
+import pythonLogo from "@/assets/tech/python.svg";
+import vueLogo from "@/assets/tech/vue.svg";
+import html5Logo from "@/assets/tech/html5.svg";
+import css3Logo from "@/assets/tech/css3.svg";
+import jsLogo from "@/assets/tech/javascript.svg";
+import flaskLogo from "@/assets/tech/flask.svg";
+import csharpLogo from "@/assets/tech/csharp.svg";
+import kaliLogo from "@/assets/tech/kalilinux.svg";
+import gitLogo from "@/assets/tech/git.svg";
+import wiresharkLogo from "@/assets/tech/wireshark.svg";
+import powershellLogo from "@/assets/tech/Powershell.svg"; // Capital P
+import nmapLogo from "@/assets/tech/nmap.svg";
+import metasploitLogo from "@/assets/tech/metasploit.svg";
+import burpsuiteLogo from "@/assets/tech/burpsuite.svg";
+import wazuhLogo from "@/assets/tech/Wazuh.webp"; // Capital W, .webp extension
+import splunkLogo from "@/assets/tech/Splunk.svg"; // Capital S
+import kibanaLogo from "@/assets/tech/Kibana.svg"; // Capital K
+import pfsenseLogo from "@/assets/tech/pfsense.svg";
+import mysqlLogo from "@/assets/tech/mysql.svg";
+import oracleLogo from "@/assets/tech/oracle.svg";
+import dockerLogo from "@/assets/tech/Docker.svg"; // Capital D
 
 const techs = [
   // Programming & Web
-  { name: "Python", logo: "@/assets/tech/python.svg", level: 90 },
-  { name: "Vue 3", logo: "@/assets/tech/vue.svg", level: 90 },
-  { name: "HTML5", logo: "@/assets/tech/html5.svg", level: 95 },
-  { name: "CSS3", logo: "@/assets/tech/css3.svg", level: 90 },
-  { name: "JavaScript", logo: "@/assets/tech/javascript.svg", level: 88 },
-  { name: "Flask", logo: "@/assets/tech/flask.svg", level: 85 },
-  { name: "C#", logo: "@/assets/tech/csharp.svg", level: 75 },
+  { name: "Python", logo: pythonLogo, level: 90 },
+  { name: "Vue 3", logo: vueLogo, level: 90 },
+  { name: "HTML5", logo: html5Logo, level: 95 },
+  { name: "CSS3", logo: css3Logo, level: 90 },
+  { name: "JavaScript", logo: jsLogo, level: 88 },
+  { name: "Flask", logo: flaskLogo, level: 85 },
+  { name: "C#", logo: csharpLogo, level: 75 },
 
   // Core Cybersecurity & OS
-  { name: "Kali Linux", logo: "@/assets/tech/kalilinux.svg", level: 85 },
-  { name: "Git", logo: "@/assets/tech/git.svg", level: 85 },
-  { name: "Wireshark", logo: "@/assets/tech/wireshark.svg", level: 80 },
-  { name: "PowerShell", logo: "@/assets/tech/Powershell.svg", level: 70 },
-  
+  { name: "Kali Linux", logo: kaliLogo, level: 85 },
+  { name: "Git", logo: gitLogo, level: 85 },
+  { name: "Wireshark", logo: wiresharkLogo, level: 80 },
+  { name: "PowerShell", logo: powershellLogo, level: 70 },
+
   // Offensive Security
-  { name: "Nmap", logo: "@/assets/tech/nmap.svg", level: 80 },
-  { name: "Metasploit", logo: "@/assets/tech/metasploit.svg", level: 75 },
-  { name: "Burp Suite", logo: "@/assets/tech/burpsuite.svg", level: 70 },
+  { name: "Nmap", logo: nmapLogo, level: 80 },
+  { name: "Metasploit", logo: metasploitLogo, level: 75 },
+  { name: "Burp Suite", logo: burpsuiteLogo, level: 70 },
 
   // Defensive Security & SIEM
-  { name: "Wazuh", logo: "@/assets/tech/Wazuh.webp", level: 75 },
-  { name: "Splunk", logo: "@/assets/tech/Splunk.svg", level: 70 },
-  { name: "Kibana", logo: "@/assets/tech/Kibana.svg", level: 65 },
-  { name: "PFsense", logo: "@/assets/tech/pfsense.svg", level: 65 },
-  
+  { name: "Wazuh", logo: wazuhLogo, level: 75 },
+  { name: "Splunk", logo: splunkLogo, level: 70 },
+  { name: "Kibana", logo: kibanaLogo, level: 65 },
+  { name: "PFsense", logo: pfsenseLogo, level: 65 },
+
   // Databases
-  { name: "MySQL", logo: "@/assets/tech/mysql.svg", level: 80 },
-  { name: "Oracle", logo: "@/assets/tech/oracle.svg", level: 70 },
+  { name: "MySQL", logo: mysqlLogo, level: 80 },
+  { name: "Oracle", logo: oracleLogo, level: 70 },
 
   // Cloud & Containers
-  { name: "Docker", logo: "@/assets/tech/Docker.svg", level: 60 },
+  { name: "Docker", logo: dockerLogo, level: 60 },
 ];
+
 
 onMounted(() => {
   const observer = new IntersectionObserver(
